@@ -6,14 +6,16 @@
 
   <title>My First Web Page</title>
 
+  <meta http-equiv="refresh" content="5"><!--Auto-refresh every 5 seconds-->
+  <meta http-equiv="refresh" content="3; url=home.html"><!--Redirect to another page after 3 seconds--> 
+  <meta http-equiv="cache-control" content="no-cache"><!--Prevents the browser from using old saved versions of the webpage and forces it to load a fresh one every time.-->
+
   <!-- 2. Basic metadata that is shown to web browswers and some featues for users -->
   <meta name="description" content="My beautiful website">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="HTML, CSS, Web development">
   <meta name="author" content="Poojana">
 
-  <!-- 3. Cache control (optional) -->
-  <meta http-equiv="cache-control" content="no-cache">
 
   <!-- 4. Open Graph (use absolute URLs; ensure image is large enough and accessible) -->
   <meta property="og:type" content="website">
